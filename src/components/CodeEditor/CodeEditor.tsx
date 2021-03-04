@@ -35,7 +35,7 @@ const CodeEditor = () => {
     }
   return (
       <div id = 'editor'>
-          <header id = "editor Header" > editor</header>
+          <header id = "editor Header" style = {{color: "#1c90f5"}} > Editor</header>
           <MonacoEditor
           height="74vh"
           language="javascript"
